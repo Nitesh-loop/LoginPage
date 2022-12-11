@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Register Page</title>
 
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -16,9 +16,9 @@
 
 <link rel="stylesheet" href="css/style.css">
 
-
 </head>
-<body>
+<body
+	style="background-image: linear-gradient(to top, #78f278, #96ee67, #afea58, #c6e54c, #dbe044); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
 
 	<!-- Navbar -->
 
@@ -50,26 +50,46 @@
 		</div>
 	</nav>
 
-
 	<!-- End Navbar -->
 
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-md-4 offset-md-4">
+				<div class="card">
+					<div class="card-header text-center c-head text-white">
+						<i class="fa fa-user-circle-o fa-2x"></i>
+						<h5>Registration</h5>
+					</div>
+					<div class="card-body">
 
+						<form action="registerServlet" method="post">
+							<div class="form-group">
+								<label for="exampleInputEmail1">Enter Full Name</label> <input
+									type="text" class="form-control" id="exampleInputEmail1"
+									aria-describedby="emailHelp">
 
+								<div class="form-group">
+									<label for="exampleInputEmail1">Enter Email address</label> <input
+										type="email" class="form-control" id="exampleInputEmail1"
+										aria-describedby="emailHelp">
 
+								</div>
+								<div class="form-group">
+									<label for="exampleInputPassword1">Enter Password</label> <input
+										type="password" class="form-control"
+										id="exampleInputPassword1">
+								</div>
 
+								<button type="submit"
+									class="btn btn-primary btn-block badge-pill">Register</button>
+						</form>
 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-		crossorigin="anonymous"></script>
-	<script
-		src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-		crossorigin="anonymous"></script>
-	<script
-		src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-		crossorigin="anonymous"></script>
 
 
 
